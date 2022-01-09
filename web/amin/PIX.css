@@ -36,7 +36,6 @@
   min-height: 82px;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
   width: 400px;
-  height: auto;
   margin: 12px auto 0;
 }
 
@@ -57,7 +56,6 @@
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.2);
   text-shadow: 0 0 0 rgba(0,0,0,0.2);
   background-image: none;
-  height: auto;
   margin: 8px auto 0;
 }
 
@@ -196,12 +194,6 @@
   height: 100%;
 }
 
-.u-section-1-1 .u-icon-8 {
-  width: 37px;
-  height: 37px;
-  margin: 27px 350px 0 auto;
-}
-
 .u-section-1-1 .u-btn-1 {
   border-style: solid;
   font-weight: 700;
@@ -210,23 +202,21 @@
   letter-spacing: 1px;
   background-image: linear-gradient(100deg, #0d2035, #3d548d);
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
-  margin: -37px auto 31px 512px;
+  margin: 24px auto 0;
   padding: 1px 30px 2px 29px;
 }
 
-.u-section-1-1 .u-icon-9 {
+.u-section-1-1 .u-icon-8 {
   font-size: 1.4286em;
 }
 
+.u-section-1-1 .u-icon-9 {
+  width: 30px;
+  height: 30px;
+  margin: -34px 350px 38px auto;
+}
+
 @media (max-width: 1199px) {
-  .u-section-1-1 .u-group-2 {
-    height: auto;
-  }
-
-  .u-section-1-1 .u-group-3 {
-    height: auto;
-  }
-
   .u-section-1-1 .u-container-layout-3 {
     padding-top: 0;
     padding-bottom: 0;
@@ -236,21 +226,25 @@
     height: 41px;
   }
 
-  .u-section-1-1 .u-icon-8 {
-    color: rgb(0, 0, 0) !important;
-    margin-top: 24px;
-    margin-right: 289px;
+  .u-section-1-1 .u-btn-1 {
+    margin-top: 21px;
   }
 
-  .u-section-1-1 .u-btn-1 {
-    margin-left: auto;
-    margin-bottom: 34px;
+  .u-section-1-1 .u-icon-9 {
+    color: rgb(0, 0, 0) !important;
+    margin-right: 250px;
+    margin-bottom: 41px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-1-1 .u-icon-8 {
-    margin-right: 141px;
+  .u-section-1-1 .u-btn-1 {
+    margin-top: 24px;
+  }
+
+  .u-section-1-1 .u-icon-9 {
+    margin-right: 140px;
+    margin-bottom: 38px;
   }
 }
 
@@ -265,7 +259,7 @@
     padding-right: 10px;
   }
 
-  .u-section-1-1 .u-icon-8 {
+  .u-section-1-1 .u-icon-9 {
     margin-right: 50px;
   }
 }
@@ -344,14 +338,13 @@
     margin-bottom: 0;
   }
 
-  .u-section-1-1 .u-icon-8 {
-    margin-top: 27px;
-    margin-right: 0;
+  .u-section-1-1 .u-btn-1 {
+    margin-left: 112px;
   }
 
-  .u-section-1-1 .u-btn-1 {
-    margin-bottom: 31px;
-    margin-left: 112px;
+  .u-section-1-1 .u-icon-9 {
+    margin-right: 0;
+    margin-bottom: 39px;
   }
 }
 
