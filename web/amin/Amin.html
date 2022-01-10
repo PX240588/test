@@ -223,8 +223,8 @@ border-color: #4c7397 !important; border-width: 2px !important; borders: top rig
     <section class="u-clearfix u-section-2" id="sec-b1e9">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <div class="u-container-style u-group u-shape-rectangle u-group-1">
-          <div class="u-container-layout u-valign-middle u-container-layout-1">
-            <div class="u-align-left u-border-2 u-border-white u-clearfix u-custom-html u-expanded-width-xs u-custom-html-1">
+          <div class="u-container-layout u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-container-layout-1">
+            <div class="u-align-left u-border-2 u-border-white u-clearfix u-custom-html u-custom-html-1">
               <meta charset="UTF-8">
               <style> @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
 div1 {
@@ -412,7 +412,7 @@ document.addEventListener('DOMContentLoaded', init);
 function init() {
   const txtElement = document.querySelector('.txt-type');
   // const words = JSON.parse(txtElement.getAttribute('data-words'));
-  const words = ['Local na Internet? 👇', 'aplicativo web? 👇', 'Profissional sério? 👇'];
+  const words = ['Local na Internet? <br> ☟', 'aplicativo web? <br> ☟', 'Profissional sério? <br> ☟'];
   // const wait = txtElement.getAttribute('data-wait');
   const wait = 3000;
   new TypeWriter(txtElement, words, wait);
@@ -457,6 +457,6 @@ function init() {
           </div>
         </nav>
       </div></footer>
-   
+    
   </body>
 </html>
