@@ -36745,12 +36745,11 @@ a.u-link.u-text-hover-grey-90:hover {
 
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 77px;
+    min-height: 84px;
   }
 
   .u-footer .u-menu-1 {
-    margin-top: 20px;
-    margin-bottom: 29px;
+    margin-top: 24px;
   }
 }
 
