@@ -28,50 +28,44 @@
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
   </head>
-  <body class="u-body u-stick-footer"><header class="u-clearfix u-header u-valign-middle-xs u-white" id="sec-054c" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-clearfix u-sheet u-valign-middle-md u-sheet-1">
-        <div class="u-border-1 u-border-palette-5-light-3 u-container-style u-group u-radius-5 u-shape-round u-group-1">
-          <div class="u-container-layout u-valign-bottom-sm u-valign-bottom-xs u-container-layout-1">
-            <div class="u-border-1 u-border-custom-color-10 u-line u-line-horizontal u-line-1"></div>
-            <h6 class="u-text u-text-black u-text-1">0&nbsp;&nbsp;<span class="u-icon u-icon-1"><svg class="u-svg-content" viewBox="0 0 50 50" x="0px" y="0px" style="width: 1em; height: 1em;"><path style="fill:currentColor;" d="M24.85,10.126c2.018-4.783,6.628-8.125,11.99-8.125c7.223,0,12.425,6.179,13.079,13.543
-	c0,0,0.353,1.828-0.424,5.119c-1.058,4.482-3.545,8.464-6.898,11.503L24.85,48L7.402,32.165c-3.353-3.038-5.84-7.021-6.898-11.503
-	c-0.777-3.291-0.424-5.119-0.424-5.119C0.734,8.179,5.936,2,13.159,2C18.522,2,22.832,5.343,24.85,10.126z"></path></svg><img></span>
-              <span class="u-text-white">K</span> &nbsp;<br>
-            </h6>
-          </div>
-        </div>
-        <div class="u-border-2 u-border-palette-5-light-3 u-image u-image-circle u-image-1" alt="" data-image-width="374" data-image-height="405"></div>
-        <div class="u-image u-image-circle u-opacity u-opacity-50 u-preserve-proportions u-image-2" alt="" data-image-width="240" data-image-height="240"></div>
-        <h6 class="u-text u-text-black u-text-2">Amin&nbsp; &nbsp;&nbsp;<span class="u-text-white">K</span> &nbsp;<br>
-        </h6><span class="u-file-icon u-gradient u-icon u-icon-circle u-spacing-5 u-text-white u-icon-2"><img src="images/2.png" alt=""></span>
-        <div class="u-container-style u-group u-shape-rectangle u-group-2">
-          <div class="u-container-layout">
-            <h6 class="u-text u-text-body-alt-color u-text-default u-text-3">
-              <a class="u-border-5 u-border-white u-btn u-btn-round u-button-style u-custom-font u-font-lato u-gradient u-hover-palette-1-dark-1 u-none u-radius-50 u-btn-1" href="#"> λ<span style="font-weight: 700;"></span>
+  <body class="u-body u-stick-footer"><header class="u-clearfix u-gradient u-header u-sticky u-sticky-ebf7 u-valign-middle-xs u-header" id="sec-054c" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-clearfix u-sheet u-valign-middle-md u-sheet-1">
+        <div class="u-container-style u-group u-shape-rectangle u-group-1">
+          <div class="u-container-layout u-valign-middle">
+            <h6 class="u-text u-text-body-alt-color u-text-default u-text-1">
+              <a class="u-border-4 u-border-white u-btn u-btn-round u-button-style u-custom-font u-font-lato u-gradient u-hover-palette-1-dark-1 u-none u-radius-50 u-btn-1" href="#"> λ<span style="font-weight: 700;"></span>
               </a>
             </h6>
-            <h6 class="u-custom-font u-font-lato u-text u-text-default u-text-white u-text-4">min</h6>
+            <h6 class="u-custom-font u-font-lato u-text u-text-default u-text-white u-text-2">min</h6>
           </div>
         </div>
-        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-submenu-level="on-click" data-responsive-from="LG">
+        <div class="u-container-style u-group u-shape-rectangle u-group-2">
+          <div class="u-container-layout u-container-layout-2">
+            <div class="u-border-2 u-border-white u-radius-50 u-shape u-shape-round u-white u-shape-1"></div>
+            <div class="u-shape u-shape-circle u-white u-shape-2"></div>
+            <div class="u-border-5 u-border-white u-image u-image-circle u-image-1" alt="" data-image-width="374" data-image-height="405"></div>
+            <div class="u-image u-image-circle u-opacity u-opacity-50 u-preserve-proportions u-image-2" alt="" data-image-width="240" data-image-height="240"></div>
+            <h6 class="u-custom-font u-font-lato u-text u-text-default u-text-3">Amin</h6><span class="u-file-icon u-icon u-icon-1"><img src="images/4021524.png" alt=""></span>
+          </div>
+        </div>
+        <nav class="u-menu u-menu-dropdown u-menu-1" data-submenu-level="on-click" data-responsive-from="LG">
           <div class="menu-collapse u-custom-font u-font-open-sans" style="font-weight: 700;">
-            <a class="u-button-style u-custom-text-color u-nav-link" href="#" style="font-size: calc(1em + 6px); height: 26px; color: rgb(17, 17, 17) !important; padding: 3px 8px;">
-              <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 20 20" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1d1a"></use></svg>
-              <svg class="u-svg-content" viewBox="0 0 20 20" id="svg-1d1a"><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg>
+            <a class="u-button-style u-custom-text-color u-file-icon u-nav-link u-file-icon-2" href="#">
+              <img src="images/hamburger-menu-icon-png-white-10.jpg" alt="">
             </a>
           </div>
           <div class="u-custom-menu u-nav-container">
-            <ul class="u-custom-font u-font-open-sans u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-custom-color-2" href="Shopping.html">Shopping</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-custom-color-2" href="Amin.html">Amin</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-custom-color-2" href="PIX.html">PIX</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-custom-color-2" href="login.html">Login</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-custom-color-2" href="inicio.html" style="padding-right: 25px;">Inicio</a>
+            <ul class="u-custom-font u-font-open-sans u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white" href="Shopping.html">Shopping</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white" href="Amin.html">Amin</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white" href="PIX.html">PIX</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white" href="login.html">Login</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white" href="inicio.html" style="padding-right: 31px;">Inicio</a>
 </li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-80 u-sidenav u-sidenav-1" data-offcanvas-width="232.3479">
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close u-menu-close-1"></div>
-                <div class="u-border-3 u-border-grey-dark-1 u-shape u-shape-right u-shape-1"></div>
+                <div class="u-border-3 u-border-grey-dark-1 u-shape u-shape-right u-shape-3"></div>
                 <ul class="u-align-center u-custom-font u-font-courier-new u-nav u-popupmenu-items u-text-active-white u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Shopping.html">Shopping</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Amin.html">Amin</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="PIX.html">PIX</a>
@@ -138,7 +132,7 @@ border-color: #4c7397 !important; border-width: 2px !important; borders: top rig
                 <div class="u-border-2 u-border-white u-container-style u-group u-radius-5 u-shape-round u-white u-group-5">
                   <div class="u-container-layout u-container-layout-5">
                     <p class="u-heading-font u-small-text u-text u-text-default u-text-variant u-text-3">Redes sociais</p>
-                    <h6 class="u-align-center u-text u-text-default u-text-grey-90 u-text-4">&nbsp;Loja Virtual<br>&nbsp;<span class="u-icon u-icon-2" data-href="#carousel_d76d"><svg class="u-svg-content" viewBox="0 0 64 64" style="width: 1em; height: 1em;"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:#343a40;}.cls-3{fill:#ffd100;}.cls-4{fill:#fff;}</style>
+                    <h6 data-u-target="#carousel_dab2" data-u-slide-to="1"class="u-align-center u-text u-text-default u-text-grey-90 u-text-4">&nbsp;Loja Virtual<br>&nbsp;<span class="u-icon u-icon-2" data-href="#carousel_d76d"><svg class="u-svg-content" viewBox="0 0 64 64" style="width: 1em; height: 1em;"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:#343a40;}.cls-3{fill:#ffd100;}.cls-4{fill:#fff;}</style>
 </defs><g id="Color"><path class="cls-1" d="M58.5,51H20.4a4,4,0,0,1-3.948-3.357L10,8H5.5A2.5,2.5,0,0,1,3,5.5H3A2.5,2.5,0,0,1,5.5,3h6.1a4,4,0,0,1,3.948,3.357L22,46H58.5A2.5,2.5,0,0,1,61,48.5h0A2.5,2.5,0,0,1,58.5,51Z"></path><circle class="cls-2" cx="52" cy="56" r="5"></circle><circle class="cls-2" cx="26" cy="56" r="5"></circle><polygon class="cls-3" points="16.953 15 22 46 55 46 61 15 16.953 15"></polygon><circle class="cls-4" cx="33" cy="25" r="3"></circle><circle class="cls-4" cx="45" cy="37" r="3"></circle><path class="cls-4" d="M31.5,38.5a2.109,2.109,0,0,1,.009-2.991L43.586,23.586a2,2,0,0,1,2.828,2.828L34.491,38.491A2.109,2.109,0,0,1,31.5,38.5Z"></path>
 </g></svg><img></span>&nbsp;<br>
                     </h6>
@@ -167,8 +161,8 @@ c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
                 </div>
               </div>
             </div>
-            <a href="https://nicepage.com/pt/modelos-html" class="u-border-1 u-border-white u-btn u-btn-round u-button-style u-gradient u-hover-palette-1-light-1 u-none u-radius-50 u-text-white u-btn-1" data-animation-name="fadeIn" data-animation-duration="2000" data-animation-direction="Up"><span class="u-file-icon u-icon u-text-white u-icon-8"><img src="images/4.png" alt=""></span>&nbsp; PIX
-            </a><span class="u-file-icon u-icon u-icon-rectangle u-text-white u-icon-9"><img src="images/6.png" alt=""></span>
+            <a href="PIX.html#sec-e6d7" data-page-id="1068178" class="u-border-1 u-border-white u-btn u-btn-round u-button-style u-gradient u-hover-palette-1-light-1 u-none u-radius-50 u-text-white u-btn-1" data-animation-name="fadeIn" data-animation-duration="2000" data-animation-direction="Up"><span class="u-file-icon u-icon u-text-white u-icon-8"><img src="images/4.png" alt=""></span>&nbsp; PIX
+            </a><span class="u-file-icon u-icon u-icon-rectangle u-text-white u-icon-9" data-href="love.php"><img src="images/7.png" alt=""></span>
           </div>
         </div>
         <div class="u-carousel-item u-clearfix u-gradient u-section-1-2">
@@ -258,7 +252,7 @@ c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
             <input type="text" placeholder="R$ 1.00" id="name-30a4" name="name" class="u-border-2 u-border-white u-input u-input-1 u-input-rectangle u-radius-50 u-white" required="">
           </div>
         </div>
-        <a href="https://nicepage.com/website-builder" class="u-border-none u-btn u-btn-round u-button-style u-gradient u-hover-palette-1-light-1 u-none u-radius-50 u-text-white u-btn-2">copiar</a>
+        <a href="https://nicepage.com/website-builder" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-gradient u-hover-palette-1-light-1 u-none u-radius-50 u-text-white u-btn-2">copiar</a>
       </div>
     </section>
     
@@ -295,16 +289,6 @@ c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
           </div>
         </nav>
       </div></footer>
-    <section class="u-backlink u-clearfix u-grey-80">
-      <a class="u-link" href="https://nicepage.com/landing-page" target="_blank">
-        <span>Landing Page</span>
-      </a>
-      <p class="u-text">
-        <span>created with</span>
-      </p>
-      <a class="u-link" href="https://nicepage.com/html-website-builder" target="_blank">
-        <span>HTML Website Builder</span>
-      </a>. 
-    </section>
+
   </body>
 </html>
