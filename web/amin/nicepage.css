@@ -36410,11 +36410,19 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-image-1 {
+  width: 80px;
+  height: 80px;
+  background-image: url("images/9ac0090e-6642-454d-9fa8-30e737432c4c7.png");
+  background-position: 50% 50%;
+  margin: 30px 160px 0 auto;
+}
+
+.u-header .u-image-2 {
   width: 35px;
   height: 35px;
   background-image: url("images/240_F_132122637_WkIORgvZv1OyJ1udv2fOGgTPPgJJJ94g.jpg?rand=3f52");
   background-position: 50% 50%;
-  margin: 19px 149px 0 auto;
+  margin: -91px 149px 0 auto;
 }
 
 .u-header .u-shape-1 {
@@ -36434,14 +36442,6 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-icon-1 {
   font-size: 1.6667em;
   color: rgb(215, 68, 62) !important;
-}
-
-.u-header .u-image-2 {
-  width: 80px;
-  height: 80px;
-  background-image: url("images/9ac0090e-6642-454d-9fa8-30e737432c4c7.png");
-  background-position: 50% 50%;
-  margin: -79px 160px 0 auto;
 }
 
 .u-header .u-icon-2 {
@@ -36514,8 +36514,13 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
+    margin-top: 30px;
+  }
+
+  .u-header .u-image-2 {
     width: 35px;
     height: 35px;
+    margin-top: -91px;
   }
 
   .u-header .u-shape-1 {
@@ -36528,14 +36533,10 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-left: 791px;
   }
 
-  .u-header .u-image-2 {
-    margin-top: -79px;
-  }
-
   .u-header .u-icon-2 {
     width: 57px;
     height: 57px;
-    margin-top: -71px;
+    margin-top: -70px;
     margin-right: 93px;
   }
 
@@ -36586,6 +36587,16 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 575px) {
+  .u-header .u-image-1 {
+    margin-top: 29px;
+    margin-right: auto;
+    margin-left: 104px;
+  }
+
+  .u-header .u-image-2 {
+    margin-top: -90px;
+  }
+
   .u-header .u-shape-1 {
     width: 239px;
   }
@@ -36603,12 +36614,6 @@ a.u-link.u-text-hover-grey-90:hover {
     font-size: 2.1429em;
   }
 
-  .u-header .u-image-2 {
-    margin-top: -80px;
-    margin-right: auto;
-    margin-left: 104px;
-  }
-
   .u-header .u-icon-2 {
     margin-top: -68px;
     margin-right: 92px;
@@ -36621,7 +36626,6 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-group-1 {
     width: 122px;
     margin-top: -29px;
-    margin-left: -8px;
   }
 
   .u-header .u-text-2 {
@@ -36638,8 +36642,8 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-text-3 {
     width: auto;
-    margin-top: -44px;
-    margin-right: 32px;
+    margin-top: -42px;
+    margin-right: 34px;
   }
 
   .u-header .u-menu-1 {
