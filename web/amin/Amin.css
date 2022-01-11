@@ -297,12 +297,9 @@
   }
 
   .u-section-1-1 .u-group-1 {
-    min-height: 562px;
-    margin-top: 31px;
-    margin-bottom: 31px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    min-height: 570px;
+    width: 340px;
+    margin: 31px auto;
   }
 
   .u-section-1-1 .u-container-layout-1 {
