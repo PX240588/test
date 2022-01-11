@@ -390,14 +390,17 @@
   }
 
   .u-section-1-1 .u-container-layout-5 {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 2px;
   }
 
   .u-section-1-1 .u-text-3 {
     width: auto;
+    margin-top: 1px;
     margin-right: 56px;
-    margin-left: 146px;
+  }
+
+  .u-section-1-1 .u-text-4 {
+    margin-top: -19px;
   }
 
   .u-section-1-1 .u-social-icons-1 {
