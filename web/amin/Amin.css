@@ -425,7 +425,6 @@
 .u-section-2 .u-group-1 {
   width: 475px;
   min-height: 115px;
-  height: auto;
   margin: 1px auto;
 }
 
@@ -436,12 +435,11 @@
 
 .u-section-2 .u-custom-html-1 {
   min-height: 114px;
-  height: auto;
   margin: 1px 0 0;
 }
 
 @media (max-width: 1199px) {
-  .u-section-2 .u-group-1 {
+  .u-section-2 .u-custom-html-1 {
     height: auto;
   }
 }

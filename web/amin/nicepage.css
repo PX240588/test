@@ -36473,7 +36473,7 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 84px;
   background-image: url("images/9ac0090e-6642-454d-9fa8-30e737432c4c7.png");
   background-position: 50% 50%;
-  margin: -79px auto 0 17px;
+  margin: -82px auto 0 18px;
 }
 
 .u-header .u-image-2 {
@@ -36481,7 +36481,7 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 40px;
   background-image: url("images/240_F_132122637_WkIORgvZv1OyJ1udv2fOGgTPPgJJJ94g.jpg?rand=07fc");
   background-position: 50% 50%;
-  margin: -86px auto 0 69px;
+  margin: -83px auto 0 69px;
 }
 
 .u-header .u-text-3 {
@@ -36494,7 +36494,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-icon-1 {
   width: 25px;
   height: 25px;
-  margin: -21px 25px 0 auto;
+  margin: -22px 25px 0 auto;
 }
 
 .u-header .u-menu-1 {
@@ -36565,11 +36565,11 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-image-1 {
     width: 84px;
     height: 84px;
-    margin-top: -79px;
+    margin-top: -82px;
   }
 
   .u-header .u-image-2 {
-    margin-top: -86px;
+    margin-top: -84px;
     margin-left: 69px;
   }
 
@@ -36580,7 +36580,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-icon-1 {
-    margin-top: -21px;
+    margin-top: -22px;
   }
 
   .u-header .u-menu-1 {
@@ -36671,11 +36671,11 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 106px;
+    min-height: 112px;
   }
 
   .u-header .u-group-1 {
-    margin-top: 4px;
+    margin-top: 7px;
   }
 
   .u-header .u-text-1 {
@@ -36703,9 +36703,15 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-top: -42px;
   }
 
+  .u-header .u-image-1 {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+  }
+
   .u-header .u-image-2 {
-    margin-top: -88px;
-    margin-left: 71px;
+    margin-top: -81px;
+    margin-left: 72px;
   }
 
   .u-header .u-text-3 {
@@ -36716,13 +36722,13 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-icon-1 {
-    margin-top: -20px;
+    margin-top: -21px;
     margin-right: 15px;
   }
 
   .u-header .u-menu-1 {
     margin-top: -76px;
-    margin-bottom: 33px;
+    margin-bottom: 29px;
     margin-left: -179px;
   }
 
