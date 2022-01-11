@@ -36426,7 +36426,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-shape-1 {
   width: 233px;
-  height: 45px;
+  height: 42px;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
   margin: 9px 16px 0 auto;
 }
@@ -36435,7 +36435,7 @@ a.u-link.u-text-hover-grey-90:hover {
   width: 85px;
   height: 85px;
   background-image: none;
-  margin: -45px auto 0 18px;
+  margin: -43px auto 0 18px;
 }
 
 .u-header .u-image-1 {
@@ -36525,11 +36525,12 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-shape-1 {
     width: 233px;
+    margin-right: 16px;
   }
 
   .u-header .u-shape-2 {
     width: 85px;
-    margin-top: -45px;
+    margin-top: -43px;
   }
 
   .u-header .u-image-1 {
