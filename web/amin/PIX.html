@@ -154,7 +154,23 @@ c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
             <div class="u-border-2 u-border-white u-container-style u-gradient u-group u-opacity u-opacity-70 u-radius-30 u-shape-round u-group-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-direction="Down">
               <div class="u-container-layout u-container-layout-1">
                 <div class="u-clearfix u-custom-html u-custom-html-1">
-                
+                  <script> function typeWriter(elemento) {
+    const textoArray = elemento.innerHTML.split('');
+    elemento.innerHTML = '';
+    textoArray.forEach((letra, i) => {
+      setTimeout(() => elemento.innerHTML += letra, 70 * i);
+    });
+  }
+  // Se estiver tendo problemas com performance, utilize o FOR loop como abaixo no local do forEach
+  // function typeWriter(elemento) {
+  //   const textoArray = elemento.innerHTML.split('');
+  //   elemento.innerHTML = '';
+  //   for(let i = 0; i < textoArray.length; i++) {
+  //     setTimeout(() => elemento.innerHTML += textoArray[i], 75 * i);
+  //   }
+  // }
+  const titulo = document.querySelector('p');
+  typeWriter(titulo); </script>
                 </div>
                 <div class="u-container-style u-group u-radius-30 u-shape-round u-white u-group-2">
                   <div class="u-container-layout u-container-layout-2">
@@ -209,7 +225,23 @@ c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
         <span class="sr-only">Next</span>
       </a>
     </section>
-    <section class="u-clearfix u-section-2" id="sec-e6d7">
+    <section class="u-clearfix u-gradient u-section-2" id="sec-b72b">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-social-icons u-spacing-19 u-social-icons-1" data-animation-name="jello" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+          <a class="u-social-url" title="link" href="https://amin.com.br/amin" target="_blank"><span class="u-file-icon u-icon u-social-facebook u-social-icon u-text-white u-icon-1"><img src="images/13.png" alt=""></span>
+          </a>
+          <a class="u-social-url" title="complaining" href="https://amin.com.br/complaining.php"><span class="u-file-icon u-icon u-social-icon u-social-twitter u-text-white u-icon-2"><img src="images/14.png" alt=""></span>
+          </a>
+          <a class="u-social-url" title="shopping" href="https://amin.com.br/shopping.php"><span class="u-file-icon u-icon u-social-icon u-social-instagram u-text-white u-icon-3"><img src="images/15.png" alt=""></span>
+          </a>
+          <a class="u-social-url" data-type="YouTube" title="official" href="https://amin.com.br/official.php"><span class="u-file-icon u-icon u-social-icon u-social-youtube u-text-white u-icon-4"><img src="images/16.png" alt=""></span>
+          </a>
+          <a class="u-social-url" data-type="Telegram" title="loja virtual" href="https://amin.com.br/loja.php"><span class="u-file-icon u-icon u-social-icon u-social-telegram u-text-white u-icon-5"><img src="images/17.png" alt=""></span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-3" id="sec-e6d7">
       <div class="u-clearfix u-sheet u-valign-middle-sm u-sheet-1">
         <img class="u-image u-image-round u-preserve-proportions u-radius-10 u-image-1" src="images/qr_150.png" alt="" data-image-width="100" data-image-height="100">
         <div class="u-clearfix u-custom-html u-custom-html-1">
@@ -219,22 +251,6 @@ c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
           </div>
         </div>
         <a href="https://nicepage.com/website-builder" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-gradient u-hover-palette-1-light-1 u-none u-radius-50 u-text-white u-btn-1">copiar</a>
-      </div>
-    </section>
-    <section class="u-clearfix u-gradient u-section-3" id="sec-b72b">
-      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <div class="u-social-icons u-spacing-19 u-social-icons-1" data-animation-name="flipIn" data-animation-duration="1000" data-animation-direction="X" data-animation-delay="0">
-          <a class="u-social-url" title="link" href="https://amin.com.br/amin" target="_blank"><span class="u-file-icon u-icon u-social-facebook u-social-icon u-text-white u-icon-1"><img src="images/14.png" alt=""></span>
-          </a>
-          <a class="u-social-url" title="complaining" href="https://amin.com.br/complaining.php"><span class="u-file-icon u-icon u-social-icon u-social-twitter u-text-white u-icon-2"><img src="images/15.png" alt=""></span>
-          </a>
-          <a class="u-social-url" title="shopping" href="https://amin.com.br/shopping.php"><span class="u-file-icon u-icon u-social-icon u-social-instagram u-text-white u-icon-3"><img src="images/16.png" alt=""></span>
-          </a>
-          <a class="u-social-url" data-type="YouTube" title="official" href="https://amin.com.br/official.php"><span class="u-file-icon u-icon u-social-icon u-social-youtube u-text-white u-icon-4"><img src="images/17.png" alt=""></span>
-          </a>
-          <a class="u-social-url" data-type="Telegram" title="loja virtual" href="https://amin.com.br/loja.php"><span class="u-file-icon u-icon u-social-icon u-social-telegram u-text-white u-icon-5"><img src="images/18.png" alt=""></span>
-          </a>
-        </div>
       </div>
     </section>
     
@@ -271,15 +287,15 @@ c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
           </div>
         </nav>
       </div></footer>
-        <section class="u-backlink">
-      <a class="u-link" href="https://amin.com.br/amin.php" target="_blank">
-        <span>Amin sem limites</span>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <a class="u-link" href="https://nicepage.com/landing-page" target="_blank">
+        <span>Landing Page</span>
       </a>
       <p class="u-text">
-        <span>amin.com.br</span>
+        <span>created with</span>
       </p>
-      <a class="u-link" href="https://amin.com.br/amin.php" target="_blank">
-        <span>em quem se pode confiar</span>
+      <a class="u-link" href="https://nicepage.com/html-website-builder" target="_blank">
+        <span>HTML Website Builder</span>
       </a>. 
     </section>
   </body>
