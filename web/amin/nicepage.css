@@ -36542,6 +36542,7 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 64px;
     margin-top: -15px;
     margin-right: 75px;
+    color: rgb(0, 0, 0) !important;
   }
 
   .u-header .u-icon-2 {
