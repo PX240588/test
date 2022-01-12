@@ -35503,14 +35503,14 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-table-alt-custom-color-11 tr:nth-child(even)
         {
             color: #ffffff;
-            background-color: #ff00ff;
+            background-color: #d7443e;
         }
 
         .u-button-style.u-custom-color-11,
         .u-button-style.u-custom-color-11[class*="u-border-"]
         {
             color: #ffffff !important;
-            background-color: #ff00ff !important;
+            background-color: #d7443e !important;
         }
 
         .u-button-style.u-custom-color-11:hover,
@@ -35525,7 +35525,7 @@ a.u-link.u-text-hover-grey-90:hover {
         li.active > .u-button-style.u-button-style.u-custom-color-11[class*="u-border-"]
         {
             color: #ffffff !important;
-            background-color: #e600e5 !important;
+            background-color: #cf312b !important;
         }
 
         .u-hover-custom-color-11:hover,
@@ -35550,11 +35550,11 @@ a.u-link.u-text-hover-grey-90:hover {
         li.active > a.u-button-style.u-button-style.u-active-custom-color-11[class*="u-border-"]
         {
             color: #ffffff !important;
-            background-color: #ff00ff !important;
+            background-color: #d7443e !important;
         }
 
         a.u-link.u-hover-custom-color-11:hover {
-            color: #ff00ff !important;
+            color: #d7443e !important;
         }
 
         
@@ -35755,14 +35755,14 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-border-custom-color-11,
         .u-separator-custom-color-11:after
         {
-            border-color: #ff00ff;
-            stroke: #ff00ff;
+            border-color: #d7443e;
+            stroke: #d7443e;
         }
 
         .u-button-style.u-border-custom-color-11
         {
-            border-color: #ff00ff !important;
-            color: #ff00ff !important;
+            border-color: #d7443e !important;
+            color: #d7443e !important;
             background-color: transparent !important;
         }
 
@@ -35770,7 +35770,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-button-style.u-border-custom-color-11:focus
         {
             border-color: transparent !important;
-            color: #e600e5 !important;
+            color: #cf312b !important;
             background-color: transparent !important;
         }
 
@@ -35785,18 +35785,18 @@ a.u-link.u-text-hover-grey-90:hover {
         a.u-button-style.u-button-style.active > .u-border-active-custom-color-11,
         li.active > a.u-button-style.u-button-style.u-border-active-custom-color-11
         {
-            color: #ff00ff !important;
-            border-color: #ff00ff !important;
+            color: #d7443e !important;
+            border-color: #d7443e !important;
         }
 
         .u-link.u-border-custom-color-11[class*="u-border-"]
         {
-            border-color: #ff00ff !important;
+            border-color: #d7443e !important;
         }
 
         .u-link.u-border-custom-color-11[class*="u-border-"]:hover
         {
-            border-color: #e600e5 !important;
+            border-color: #cf312b !important;
         }
         
 
@@ -36057,7 +36057,7 @@ a.u-link.u-text-hover-grey-90:hover {
         a.u-button-style.u-text-custom-color-11,
         a.u-button-style.u-text-custom-color-11[class*="u-border-"]
         {
-            color: #ff00ff !important;
+            color: #d7443e !important;
         }
 
         a.u-button-style.u-text-custom-color-11:hover,
@@ -36069,7 +36069,7 @@ a.u-link.u-text-hover-grey-90:hover {
         a.u-button-style.u-button-style.u-text-custom-color-11.active,
         a.u-button-style.u-button-style.u-text-custom-color-11[class*="u-border-"].active
         {
-            color: #e600e5 !important;
+            color: #cf312b !important;
         }
 
         a.u-button-style:hover > .u-text-hover-custom-color-11,
@@ -36093,7 +36093,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-popupmenu-items.u-text-hover-custom-color-11 .u-nav-link:hover,
         .u-popupmenu-items.u-popupmenu-items.u-text-active-custom-color-11 .u-nav-link.active
         {
-            color: #ff00ff !important;
+            color: #d7443e !important;
         }
 
         .u-text-custom-color-11 .u-svg-link,
@@ -36102,17 +36102,17 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-button-style.u-button-style.active > .u-text-active-custom-color-11 .u-svg-link,
         .u-text-hover-custom-color-11:focus .u-svg-link
         {
-            fill: #ff00ff;
+            fill: #d7443e;
         }
 
         .u-link.u-text-custom-color-11:hover
         {
-            color: #e600e5 !important;
+            color: #cf312b !important;
         }
 
         a.u-link.u-text-hover-custom-color-11:hover
         {
-            color: #ff00ff !important;
+            color: #d7443e !important;
         }
 
         
@@ -36410,7 +36410,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 117px;
+  min-height: 119px;
 }
 
 .u-header .u-group-1 {
@@ -36449,7 +36449,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-image-2 {
   width: 40px;
   height: 40px;
-  background-image: url("images/240_F_132122637_WkIORgvZv1OyJ1udv2fOGgTPPgJJJ94g.jpg?rand=07fc");
+  background-image: url("images/240_F_132122637_WkIORgvZv1OyJ1udv2fOGgTPPgJJJ94g.jpg");
   background-position: 50% 50%;
   margin: -83px auto 0 69px;
 }
@@ -36464,7 +36464,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-icon-1 {
   width: 30px;
   height: 30px;
-  margin: -23px 25px 0 auto;
+  margin: -25px 25px 0 auto;
 }
 
 .u-header .u-btn-1 {
@@ -36514,10 +36514,6 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: 26px auto 0;
 }
 @media (max-width: 1199px) {
-  .u-header .u-sheet-1 {
-    min-height: 119px;
-  }
-
   .u-header .u-group-1 {
     width: 290px;
     min-height: 97px;
@@ -36581,7 +36577,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 991px) {
   .u-header .u-sheet-1 {
-    min-height: 127px;
+    min-height: 129px;
   }
 
   .u-header .u-group-1 {
@@ -36594,9 +36590,9 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-top: -54px;
-    margin-left: auto;
-    margin-bottom: 34px;
+    margin-top: -59px;
+    margin-bottom: 40px;
+    margin-left: -151px;
   }
 
   .u-header .u-file-icon-2 {
@@ -36681,7 +36677,7 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-icon-1 {
     width: 20px;
     height: 20px;
-    margin-top: -19px;
+    margin-top: -18px;
     margin-right: 10px;
   }
 
