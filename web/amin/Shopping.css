@@ -124,6 +124,10 @@
   padding: 0;
 }
 
+.u-section-1-1 .u-icon-1 {
+  color: rgb(0, 0, 0) !important;
+}
+
 .u-section-1-1 .u-text-4 {
   margin: 17px 0 0 1px;
 }
@@ -162,7 +166,7 @@
 }
 
 .u-section-1-1 .u-text-7 {
-  margin: 17px 157px 0 133px;
+  margin: 17px 160px 0 133px;
 }
 
 .u-section-1-1 .u-text-8 {
@@ -203,7 +207,7 @@
 }
 
 .u-section-1-1 .u-text-11 {
-  margin: 17px 157px 0 133px;
+  margin: 17px 160px 0 133px;
 }
 
 .u-section-1-1 .u-text-12 {
@@ -243,7 +247,7 @@
 }
 
 .u-section-1-1 .u-text-15 {
-  margin: 17px 157px 0 133px;
+  margin: 17px 160px 0 133px;
 }
 
 .u-section-1-1 .u-text-16 {
@@ -283,7 +287,7 @@
 }
 
 .u-section-1-1 .u-text-19 {
-  margin: 17px 157px 0 133px;
+  margin: 17px 160px 0 133px;
 }
 
 .u-section-1-1 .u-text-20 {
@@ -323,7 +327,7 @@
 }
 
 .u-section-1-1 .u-text-23 {
-  margin: 17px 157px 0 133px;
+  margin: 17px 160px 0 133px;
 }
 
 .u-section-1-1 .u-text-24 {
@@ -363,7 +367,7 @@
 }
 
 .u-section-1-1 .u-text-27 {
-  margin: 17px 157px 0 133px;
+  margin: 17px 160px 0 133px;
 }
 
 .u-section-1-1 .u-text-28 {
@@ -403,7 +407,7 @@
 }
 
 .u-section-1-1 .u-text-31 {
-  margin: 17px 157px 0 133px;
+  margin: 17px 160px 0 133px;
 }
 
 .u-section-1-1 .u-text-32 {
@@ -443,7 +447,7 @@
 }
 
 .u-section-1-1 .u-text-35 {
-  margin: 17px 157px 0 133px;
+  margin: 17px 160px 0 133px;
 }
 
 .u-section-1-1 .u-text-36 {
@@ -510,6 +514,7 @@
   .u-section-1-1 .u-text-7 {
     width: auto;
     margin-top: 18px;
+    margin-right: 157px;
     margin-left: 0;
   }
 
@@ -525,6 +530,7 @@
   .u-section-1-1 .u-text-11 {
     width: auto;
     margin-top: 18px;
+    margin-right: 157px;
     margin-left: 0;
   }
 
@@ -540,6 +546,7 @@
   .u-section-1-1 .u-text-15 {
     width: auto;
     margin-top: 18px;
+    margin-right: 157px;
     margin-left: 0;
   }
 
@@ -555,6 +562,7 @@
   .u-section-1-1 .u-text-19 {
     width: auto;
     margin-top: 18px;
+    margin-right: 157px;
     margin-left: 0;
   }
 
@@ -570,6 +578,7 @@
   .u-section-1-1 .u-text-23 {
     width: auto;
     margin-top: 18px;
+    margin-right: 157px;
     margin-left: 0;
   }
 
@@ -585,6 +594,7 @@
   .u-section-1-1 .u-text-27 {
     width: auto;
     margin-top: 18px;
+    margin-right: 157px;
     margin-left: 0;
   }
 
@@ -600,6 +610,7 @@
   .u-section-1-1 .u-text-31 {
     width: auto;
     margin-top: 18px;
+    margin-right: 157px;
     margin-left: 0;
   }
 
@@ -615,6 +626,7 @@
   .u-section-1-1 .u-text-35 {
     width: auto;
     margin-top: 18px;
+    margin-right: 157px;
     margin-left: 0;
   }
 
