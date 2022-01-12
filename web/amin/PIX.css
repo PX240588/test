@@ -834,7 +834,7 @@
 
 @media (max-width: 575px) {
   .u-section-1-2 .u-sheet-1 {
-    min-height: 100vh;
+    min-height: 700px;
   }
 
   .u-section-1-2 .u-container-layout-1 {
@@ -927,7 +927,7 @@
   }
 
   .u-section-1-2 .u-btn-4 {
-    margin-top: 33px;
+    margin-top: 28px;
     margin-bottom: 31px;
     padding: 1px 12px 2px 11px;
   }
