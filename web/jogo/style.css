@@ -1,112 +1,186 @@
-@font-face {
-	font-family: Minecraft;
-	src: url("https://minecraft--duck132912.repl.co/minecraft.ttf");
+:root {
+  --blue: linear-gradient(180deg, #0120CB 0%, #011BA9 100%);
+  --yellow: #FFE817;
+  --green: #90FF7E;
+  --red: #FFA57E;
+  --spooky-orange: #ad4e08;
+  --spooky-orange-text: #fffec8;
+  --gap: 0.1em;
+  --text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-html {
-	height: 100%;
-	overflow: hidden;
+
+* {
+  box-sizing: border-box;
 }
+
+html, body {
+  height: 100%;
+}
+
 body {
-	background: #303030 url("minecraft.jpg") repeat-x 0 0;
-	background-size: cover;
-	animation: MinecraftBackground 165s linear infinite;
-	text-align: center;
-	font-family: Minecraft;
-	text-shadow: 0.2vw 0.2vw 0 #383838;
-	min-height: 100%;
+  font-family: sans-serif;
+  color: white;
+  font-size: 2vw;
+  text-align: center;
+  padding: 1em;
+  background: linear-gradient(180deg, #2E2E3A 0%, #0C0C2C 100%);
 }
-main {
-	padding: 8% 30% 0 30%;
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-shadow: var(--text-shadow);
 }
-img, main, div {
-	image-rendering: pixelated;
+
+.score {
+  display: flex;
+  align-items: center;
 }
-a {
-	color: #fff;
-	text-decoration: none;
+
+.score-count {
+  color: var(--yellow);
+  font-size: 2em;
+  font-weight: bold;
+  margin-left: 0.2em;
 }
-footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	font-size: 1.2vw;
-	color: white;
-	margin-bottom: 0.4vw;
+
+.column ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-#logo {
-	margin-top: 5%;
-	width: 50%;
+
+.board {
+  display: flex;
+  justify-content: space-around;
 }
-/* TODO: Make the flashing text scale down as more text is added */
-#flashingtext {
-	margin: -3.5% 0 0 47%;
-	width: 40%;
-	transform: rotate(-20deg);
-	animation: FlashingText 0.5s ease-in-out infinite;
-	color: #FFFF00;
-	font-size: 2vw;
+
+.board .column {
+  flex: 1;
+  margin-left: var(--gap);
+  margin-right: var(--gap);
 }
-.button {
-	/* padding: 0.2% 50vw; */
-	padding: 1% 0 3% 0;
-	margin: 0 auto 2% auto;
-	background: #7D7D7D url("buttons.png") no-repeat center;
-	background-size: 100% 300%;
-	color: #E0E0E0;
-	font-size: 1.2vw;
-	outline: 0.2vw solid #000;
-	outline-offset: -0.2vw;
+
+.board .column header {
+  text-transform: capitalize;
+  background: var(--blue);
+  text-align: center;
+  margin-bottom: 1em;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.button_small {
-	width: 49%;
-	display: inline-block;
-	margin-top: 5%;
+
+.board .column li {
+  background: var(--blue);
+  color: var(--yellow);
+  height: 3em;
+  margin-bottom: 0.25em;
 }
-.button:hover {
-	background: #7079AA url("buttons.png") no-repeat bottom;
-	background-size: 100% 300%;
-	color: #FFFFA0;
+
+.board .column button {
+  height: 100%;
+  color: inherit;
+  font-size: 2em;
+  -webkit-appearance: none;
+  border: 0;
+  background: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  text-shadow: var(--text-shadow);
+  font-weight: bold;
 }
-.button:disabled, .button[disabled] {
-	background: #272727 url("buttons.png") no-repeat top;
-	background-size: 100% 300%;
-	color: #A9A9A9;
+
+.board .column button.used {
+  visibility: hidden;
 }
-.button span {
-	vertical-align: middle;
+
+.card-modal {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: var(--blue);
+  position: fixed;
+  font-size: 2vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.left {
-	float: left;
+
+.card-modal.visible {
+  opacity: 1;
+  pointer-events: initial;
 }
-.right {
-	float: right;
+
+.card-modal.showing-result .result {
+  display: block;
 }
-.bold {
-	font-weight: bold;
+
+.card-model .clue-text {
+  margin-bottom: 2em;
 }
-footer .right {
-	margin-right: 10px;
+
+.result,
+.card-modal.showing-result form {
+  display: none;
 }
- @keyframes FlashingText {
- 0% {
- transform: scale(1) rotate(-20deg);
+
+.card-modal form {
+  display: flex;
 }
- 50% {
- transform: scale(1.05) rotate(-20deg);
+
+.card-modal form input[type=text] {
+  display: block;
+  flex-grow: 1;
+  height: 3em;
+  line-height: 3em;
+  border: 0;
+  text-align: center;
+  border-top-left-radius: 0.4em;
+  border-bottom-left-radius: 0.4em;
 }
- 100% {
- transform: scale(1) rotate(-20deg);
+
+.card-modal form button[type=submit] {
+  padding-left: 2em;
+  padding-right: 2em;
+  cursor: pointer;
+  font-family: inherit;
+  background: var(--yellow);
+  border: 0;
+  font-size: inherit;
+  border-top-right-radius: 0.4em;
+  border-bottom-right-radius: 0.4em;
 }
+
+.card-modal-inner {
+  width: 60%;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
- @keyframes MinecraftBackground {
- 0% {
-background-position: 0 0;
+
+.result_success, .result_fail {
+  font-size: 2em;
+  font-weight: bold;
 }
- 100% {
-background-position: -4096px 0;
+
+.result_success {
+  color: var(--green);
 }
+
+.result_fail {
+  color: var(--red);
 }
-button {
-  font-family: Minecraft;
-	src: url("https://minecraft--duck132912.repl.co/minecraft.ttf");
+
+.result_correct-answer-text {
+  font-weight: bold;
+  font-size: 2em;
+  display: block;
+  margin-left: 0.1em;
 }
