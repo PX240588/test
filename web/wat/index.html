@@ -1,0 +1,61 @@
+
+    <link rel="stylesheet" href="./PX_files/nicepage.css" media="screen">
+
+    <link id="u-google-font" rel="stylesheet" href="./PX_files/css">
+	   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style class="u-style">
+.w3-input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
+.w3-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
+
+</style>
+
+  				<script src="js/jquery.js"></script>
+				<script src="js/sendform.js"></script>
+				<script src="js/what.js"></script>
+
+</head>
+
+  <body class="u-body"onload="relogio()">
+  
+  
+  
+  
+     <script type="text/javascript">
+        $(document).ready(function() {
+
+  $("#tbc").hide();
+
+  $("#proximo").click(function() {
+
+  // verificar se os campos foram preenchidos
+  var nome = $("#nome_completo").val();
+  //var email = $("#email_principal").val();
+  //var cpf = $("#cpf").val();
+  //var dataNasc = $("#data_nascimento").val();
+  //var telefone = $("#telefone").val();
+  //var celular = $("#celular").val();
+  //var estadoCivil = $("#estado_civil").val();
+  //var sexo = $("#sexo").val();
+  //var senioridade = $("#senioridade").val();
+  //var cep = $("#cep").val();
+  //var numero = $("#numero").val();
+
+  // Mensagem de erro padrão a ser inserida após o campo
+  var erromsg = '<div class="erromsg" style="color:red;margin:7px 0"><span></span></div>';
+
+  if (nome == "" || nome.length < 5) {
+   $("#nome_completo").after(erromsg);
+   $(".erromsg span").text("");
+  }
+
+
+
+  else {
+   $("#tbc").show();
+   $(".erromsg").remove();	// remove as mensagens de erro
+  }
+
+ });
+})
+    </script>
+
