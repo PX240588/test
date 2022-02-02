@@ -1,3 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-20:07:30	1611/1611	---M-Z	404	error ('Not%20Found')	text/html	etag:W/%22e01836379a08fd6809bc20a9933f25ef%22	https://pxsantos.nicepage.io/robots.txt		(from )
-20:07:30	100918/100918	---M-Z	200	added ('OK')	text/html	etag:W/%22d9dd9f68d0e957c3d25217ce9d69fc8f%22	https://pxsantos.nicepage.io/	C:/Users/pjxs/Desktop/project/site/index-2.html	(from )
