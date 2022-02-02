@@ -3,5 +3,5 @@
 require('../vendor/autoload.php');
 
 ?>
-<meta http-equiv="refresh" content="0;URL='/amin/index4.html'"/>
+<meta http-equiv="refresh" content="0;URL='/sites/index.html'"/>
 
